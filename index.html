@@ -97,7 +97,7 @@
             <div class="we-provide-text">
               <h2 class="medium-title">We Provide Many Features You Can Use</h2>
               <p class="second-text">You can explore the features that we provide with fun and have their own functions each feature.</p>
-              <ul>
+              <ul class="second-list">
                 <li class="second-list-item">Powerfull online protection.</li>
                 <li class="second-list-item">Internet without borders.</li>
                 <li class="second-list-item">Supercharged VPN</li>
@@ -124,8 +124,11 @@
                 <li class="third-list-item">No Traffic Logs</li>
                 <li class="third-list-item">Works on All Devices</li>
               </ul>
-              <h2>Free</h2>
-              <Button class="select-button">Select</Button>
+              <div class="bottom-text-in-column">
+                <h2>Free</h2>
+                <Button class="select-button">Select</Button>
+              </div>
+              
             </div>
             <div class="column-elements">
               <img src="/images/standard.png" alt="">
@@ -137,8 +140,11 @@
                 <li class="third-list-item">Works on All Devices</li>
                 <li class="third-list-item">Connect Anyware</li>
               </ul>
-              <h2>$9 / mo</h2>
-              <Button class="select-button">Select</Button>
+              <div class="bottom-text-in-column">
+                <h2>$9 / mo</h2>
+                <Button class="select-button">Select</Button>
+              </div>
+              
             </div>
             <div class="column-elements">
               <img src="/images/premium.png" alt="">
@@ -150,14 +156,176 @@
                 <li class="third-list-item">Works on All Devices</li>
                 <li class="third-list-item">Connect Anyware</li>
                 <li class="third-list-item">Get New Features</li>
+                
               </ul>
-              <h2>$12 / mo</h2>
-              <Button class="select-button">Select</Button>
+              <div class="bottom-text-in-column">
+                <h2>$12 / mo</h2>
+                <Button class="select-button">Select</Button>
+              </div>
+              
             </div>
           </div>
         </section>
-        
+      </div>
+      <div class="container">
+        <h2 class="medium-title text-center">Trusted by Thousands of Happy Customer</h2>
+        <p class="second-text text-center">These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
+        <section class="slider">
+          <div class="slider">
+            <div class="slider__wrapper">
+              <div class="slider__item">
+                <div class="slider-item-element">
+                  <img class="photo-in-slider" src="/images/photo1.png" alt="">
+                    <ul class="list-in-slider">
+                      <li><span class="text-center name-in-slider">Viezh Robert</span></li>
+                      <li><span class="text-center city-in-slider">Warsaw, Poland</span></li>
+                    </ul>
+                    <span class="rating">4.5</span>
+                    <p class="text-in-slider">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider-item-element">
+                  <img class="photo-in-slider" src="/images/photo3.png" alt="">
+                    <ul class="list-in-slider">
+                      <li><span class="text-center name-in-slider">Kim Young Jou</span></li>
+                      <li><span class="text-center city-in-slider">Seoul, South Korea</span></li>
+                    </ul>
+                    <span class="rating">4.5</span>
+                    <p class="text-in-slider">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider-item-element">
+                  <img class="photo-in-slider" src="/images/photo2.png" alt="">
+                    <ul class="list-in-slider">
+                      <li><span class="text-center name-in-slider">Yessica Christy</span></li>
+                      <li><span class="text-center city-in-slider">Shanxi, China</span></li>
+                    </ul>
+                    <span class="rating">4.5</span>
+                    <p class="text-in-slider">“I like it because I like to travel far and still can connect with high speed.”.</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider-item-element">
+                  <img class="photo-in-slider" src="/images/plakhotenko.png" alt="">
+                    <ul class="list-in-slider">
+                      <li><span class="text-center name-in-slider">Yessica Christy</span></li>
+                      <li><span class="text-center city-in-slider">Shanxi, China</span></li>
+                    </ul>
+                    <span class="rating">4.5</span>
+                    <p class="text-in-slider">“I like it because I like to travel far and still can connect with high speed.”.</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider-item-element">
+                  <img class="photo-in-slider" src="/images/photo2.png" alt="">
+                    <ul class="list-in-slider">
+                      <li><span class="text-center name-in-slider">Yessica Christy</span></li>
+                      <li><span class="text-center city-in-slider">Shanxi, China</span></li>
+                    </ul>
+                    <span class="rating">4.5</span>
+                    <p class="text-in-slider">“I like it because I like to travel far and still can connect with high speed.”.</p>
+                </div>
+              </div>
+            </div>
+            <a class="icon-arrow-left slider__control slider__control_left" href="#" role="button"></a>
+            <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+          </div>
+        </section>
+        <h1>2</h1>
       </div>
     </main>
+    <script>
+      'use strict';
+      var multiItemSlider = (function () {
+        return function (selector, config) {
+          var
+            _mainElement = document.querySelector(selector), // основный элемент блока
+            _sliderWrapper = _mainElement.querySelector('.slider__wrapper'), // обертка для .slider-item
+            _sliderItems = _mainElement.querySelectorAll('.slider__item'), // элементы (.slider-item)
+            _sliderControls = _mainElement.querySelectorAll('.slider__control'), // элементы управления
+            _sliderControlLeft = _mainElement.querySelector('.slider__control_left'), // кнопка "LEFT"
+            _sliderControlRight = _mainElement.querySelector('.slider__control_right'), // кнопка "RIGHT"
+            _wrapperWidth = parseFloat(getComputedStyle(_sliderWrapper).width), // ширина обёртки
+            _itemWidth = parseFloat(getComputedStyle(_sliderItems[0]).width), // ширина одного элемента    
+            _positionLeftItem = 0, // позиция левого активного элемента
+            _transform = 0, // значение транфсофрмации .slider_wrapper
+            _step = _itemWidth / _wrapperWidth * 114.5, // величина шага (для трансформации)
+            _items = []; // массив элементов
+          // наполнение массива _items
+          _sliderItems.forEach(function (item, index) {
+            _items.push({ item: item, position: index, transform: 0 });
+          });
+  
+          var position = {
+            getMin: 0,
+            getMax: _items.length - 1,
+          }
+  
+          var _transformItem = function (direction) {
+            if (direction === 'right') {
+              if ((_positionLeftItem + _wrapperWidth / _itemWidth - 1) >= position.getMax) {
+                return;
+              }
+              if (!_sliderControlLeft.classList.contains('slider__control_show')) {
+                _sliderControlLeft.classList.add('slider__control_show');
+              }
+              if (_sliderControlRight.classList.contains('slider__control_show') && (_positionLeftItem + _wrapperWidth / _itemWidth) >= position.getMax) {
+                _sliderControlRight.classList.remove('slider__control_show');
+              }
+              _positionLeftItem++;
+              _transform -= _step;
+            }
+            if (direction === 'left') {
+              if (_positionLeftItem <= position.getMin) {
+                return;
+              }
+              if (!_sliderControlRight.classList.contains('slider__control_show')) {
+                _sliderControlRight.classList.add('slider__control_show');
+              }
+              if (_sliderControlLeft.classList.contains('slider__control_show') && _positionLeftItem - 1 <= position.getMin) {
+                _sliderControlLeft.classList.remove('slider__control_show');
+              }
+              _positionLeftItem--;
+              _transform += _step;
+            }
+            _sliderWrapper.style.transform = 'translateX(' + _transform + '%)';
+          }
+  
+          // обработчик события click для кнопок "назад" и "вперед"
+          var _controlClick = function (e) {
+            if (e.target.classList.contains('slider__control')) {
+              e.preventDefault();
+              var direction = e.target.classList.contains('slider__control_right') ? 'right' : 'left';
+              _transformItem(direction);
+            }
+          };
+  
+          var _setUpListeners = function () {
+            // добавление к кнопкам "назад" и "вперед" обрботчика _controlClick для событя click
+            _sliderControls.forEach(function (item) {
+              item.addEventListener('click', _controlClick);
+            });
+          }
+  
+          // инициализация
+          _setUpListeners();
+  
+          return {
+            right: function () { // метод right
+              _transformItem('right');
+            },
+            left: function () { // метод left
+              _transformItem('left');
+            }
+          }
+  
+        }
+      }());
+  
+      var slider = multiItemSlider('.slider')
+  
+    </script>
   </body>
 </html>
