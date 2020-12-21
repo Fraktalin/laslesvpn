@@ -65,6 +65,14 @@ a {
 .signup:hover {
   background: #f53855;
   color: #fcffff;
+  box-shadow: 0 30px 30px rgba(245, 56, 56, 0.35);
+}
+.signup:active {
+  background: #9e1818;
+  box-shadow: 0 30px 30px rgba(245, 2, 2, 0.35);
+}
+.signup:focus {
+  outline: 1px solid #ff0000;
 }
 .signin {
   border-radius: 50px;
@@ -80,6 +88,14 @@ a {
 .signin:hover {
   background: #f53855;
   color: #fcffff;
+  box-shadow: 0 30px 30px rgba(245, 56, 56, 0.35);
+}
+.signin:active {
+  background: #9e1818;
+  box-shadow: 0 30px 30px rgba(245, 2, 2, 0.35);
+}
+.signin:focus {
+  outline: 1px solid #ff0000;
 }
 .main-flex {
   display: flex;
@@ -102,8 +118,8 @@ a {
   font-weight:500;
 }
 .get-started {
-  border: none;
-  background: #f53838;
+  border: 1px solid #f53838;
+  background: #fcffff;
   border-radius: 10px;
   padding-left: 81px;
   padding-right: 81px;
@@ -112,13 +128,21 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 25px;
-  color: #fcffff;
-  box-shadow: 0 30px 30px rgba(245, 56, 56, 0.35);
+  color: #f53838;
+  
 }
 .get-started:hover {
-  color: #f53838 ;
-  background: #fcffff;
-  border: 1px solid #f53838;
+  box-shadow: 0 30px 30px rgba(245, 56, 56, 0.35);
+  color: #fcffff ;
+  background: #f53838;
+}
+.get-started:active {
+  box-shadow: 0 30px 30px rgba(245, 2, 2, 0.35);
+  color: #fcffff ;
+  background: #9e1818;
+}
+.get-started:focus {
+  outline: 1px solid #ff0000;
 }
 .icon-user {
   background-color:#FFECEC;
@@ -168,9 +192,6 @@ a {
   justify-content: space-evenly;
   justify-content:space-around ;
 }
-.we-provide {
-  
-}
 .second-image {
   width: 50%;
 }
@@ -207,6 +228,9 @@ a {
 }
 .text-center {
   text-align: center;
+}
+.your-plan {
+  padding-top: 100px;
 }
 .second-text {
   font-size: 16px;
@@ -273,6 +297,13 @@ a {
   background: #f53838;
   color: #fcffff;
   box-shadow: 0 30px 30px rgba(245, 56, 56, 0.35);
+}
+.select-button:focus {
+  outline: 1px solid #ff0000;
+}
+.select-button:active {
+  background: #9e1818;
+  box-shadow: 0 30px 30px rgba(245, 2, 2, 0.35);
 }
 .bottom-text-in-column {
   position: absolute;
