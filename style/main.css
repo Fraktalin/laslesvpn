@@ -46,7 +46,7 @@ a {
 .main-nav-link {
   font-size: 16px;
   line-height: 19px;
-  color: #4F5665;
+  color: #4f5665;
   margin-left: 7px;
   margin-right: 7px;
   display: inline-flex;
@@ -59,7 +59,7 @@ a {
   padding: 13px 50px;
   background-color: transparent;
   border-radius: 50px;
-  border: 1px solid #F53855;
+  border: 1px solid #f53855;
   color: #f53855;
 }
 .signup:hover {
@@ -83,7 +83,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #0B132A;
+  color: #0b132a;
 }
 .signin:hover {
   background: #f53855;
@@ -106,12 +106,12 @@ a {
   font-weight: 500;
   font-size: 50px;
   line-height: 70px;
-  color: #0B132A;
+  color: #0b132a;
 }
 .first-text {
   font-size: 16px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
   padding-bottom: 30px;
 }
 .bold {
@@ -145,29 +145,29 @@ a {
   outline: 1px solid #ff0000;
 }
 .icon-user {
-  background-color:#FFECEC;
+  background-color:#ffecec;
   font-size: 18px;
-  color: #F53838;
+  color: #f53838;
 }
 .icon-location {
-  background-color:#FFECEC;
+  background-color:#ffecec;
   font-size: 18px;
-  color: #F53838;
+  color: #f53838;
 }
 .icon-server {
-  background-color:#FFECEC;
+  background-color:#ffecec;
   font-size: 18px;
-  color: #F53838;
+  color: #f53838;
 }
 .achievments {
   margin-top: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   border-radius: 10px;
-  box-shadow: 0 20px 90px #0d102513;
+  box-shadow: 0 20px 90px rgba(13, 16, 37, 0.075);
 }
 .achievments-item {
   align-items: center;
@@ -176,12 +176,10 @@ a {
 }
 .achievments-item-link {
   justify-content:space-between;
-}
-.achievments-item-link {
   margin-right: 40px;
   margin-top: 30px;
   padding: 20px;
-  background: #FFECEC;
+  background: #ffecec;
   border-radius: 70px;
 }
 .can-use {
@@ -202,7 +200,6 @@ a {
 }
 .second-list {
   margin: 0;
-  padding-left: 16px;
 }
 .medium-title {
   justify-content: center;
@@ -213,29 +210,31 @@ a {
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
-  color: #0B132A;
+  color: #0b132a;
 }
 .second-list-item {
+
   font-size: 14px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
 }
 .second-list-item::before {
   padding-right: 14px;
   font-family: 'icomoon' !important;
   content: "\e901";
-  color: #2FAB73;
+  color: #2fab73;
 }
 .text-center {
   text-align: center;
 }
 .your-plan {
+  background:  #fcffff;
   padding-top: 100px;
 }
 .second-text {
   font-size: 16px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
   width: 400px;
 }
 .column-elements {
@@ -250,7 +249,7 @@ a {
   border-radius: 10px;
 }
 .column-elements:hover {
-  border: 2px solid #F53838;
+  border: 2px solid #f53838;
 }
 .plan {
   display: flex;
@@ -265,22 +264,22 @@ a {
   padding-right: 25px;
   font-family: 'icomoon' !important;
   content: "\e902";
-  color: #2FAB73;
+  color: #2fab73;
   font-size: 10px;
 }
 .text-price {
   padding-bottom: 20px;
   font-weight: 500;
   font-size: 25px;
-  color: #0B132A;
+  color: #0b132a;
 }
 .text-price-thin {
   font-weight: normal;
   font-size: 20px;
-  color: #4F5665;
+  color: #4f5665;
 }
 .select-button {
-  background: #FCFFFF;
+  background: #fcffff;
   padding-bottom: 13px;
   padding-top: 13px;
   padding-left: 63px;
@@ -291,7 +290,7 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-  color: #F53838;
+  color: #f53838;
 }
 .select-button:hover {
   background: #f53838;
@@ -318,7 +317,7 @@ a {
   padding-bottom: 30px;
   font-size: 16px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
   margin-left: auto;
   margin-right: auto;
   width: 555px;
@@ -344,8 +343,8 @@ a {
   padding-top: 20px;
   text-align: center;
   background: transparent;
-  color: #F53838;
-  border: 2px solid #F53838;
+  color: #f53838;
+  border: 2px solid #f53838;
   border-radius: 50px;
 }
 .slider__control_show {
@@ -354,7 +353,7 @@ a {
 .slider__control:hover,
 .slider__control:focus {
   color: #fff;
-  background: #F53838;
+  background: #f53838;
 }
 .slider__control:active {
   color: #fff;
@@ -371,7 +370,7 @@ a {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: transparent no-repeat center center;
+  background: transparent no-repeat center;
   background-size: 100% 100%;
 }
 .slider__control_left::before {
@@ -387,10 +386,10 @@ a {
   font-size: 25px;
 }
 .slider__item {
-  flex: 0 0 33.333333%;
+  flex: 33.333333% 0 0;
   max-width: 33.333333%;
   display: flex;
-  border: 2px solid #DDDDDD;
+  border: 2px solid #ddd;
   box-sizing: border-box;
   border-radius: 10px;
   flex-wrap: wrap;
@@ -401,7 +400,7 @@ a {
   max-width: 310px;
 }
 .slider__item:hover {
-  border: 2px solid #F53838;
+  border: 2px solid #f53838;
 }
 .slider-item-element {
   display: flex;
@@ -413,11 +412,11 @@ a {
   line-height: 25px;
   display: flex;
   align-items: center;
-  color: #0B132A;
+  color: #0b132a;
   padding-left: 30px;
 }
 .rating:after {
-  color:  #fea250;
+  color:  #fea150;
   font-size: 12px;
   padding-left: 8px;
   font-family: 'icomoon' !important;
@@ -429,18 +428,18 @@ a {
 .name-in-slider {
   font-weight: 500;
   font-size: 18px;
-  color: #0B132A;
+  color: #0b132a;
 }
 .city-in-slider {
   font-weight: normal;
   font-size: 14px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
 }
 .text-in-slider {
   font-size: 16px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -448,6 +447,68 @@ a {
   border-radius: 50px;
   max-height: 50px;
   margin-top: 10px;
+}
+.red-button {
+  position: absolute;
+  bottom: 15%;
+  left: 4%;
+  height: 15px;
+  width: 45px;
+  background: #f53838;
+  border-radius: 15px;
+  border: none;
+}
+.red-button:hover {
+  background: #a02323;
+}
+.red-button:active {
+  background: #8b0a0a;
+}
+.grey-button-left {
+  position: absolute;
+  bottom: 15%;
+  left: 9%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background: #dde0e4;
+  border: none;
+}
+.grey-button-center {
+  position: absolute;
+  bottom: 15%;
+  left: 11%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background: #dde0e4;
+  border: none;
+}
+.grey-button-right {
+  position: absolute;
+  bottom: 15%;
+  left: 13%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background:#dde0e4;
+  border: none;
+}
+.grey-button-left:hover,
+.grey-button-right:hover,
+.grey-button-center:hover {
+  background: #f53838;
+}
+.grey-button-left:active,
+.grey-button-right:active,
+.grey-button-center:active {
+  background: #8b0a0a;
+}
+.grey-button-left:focus,
+.grey-button-right:focus,
+.grey-button-center:focus,
+.red-button:focus {
+  outline: 1px solid #ff0000;
 }
 .end-section {
   background-color: #fcffff;
@@ -457,9 +518,11 @@ a {
   margin-top: 100px;
   margin-bottom: 85px;
   border-radius: 10px;
-  box-shadow: 0 20px 90px #0d102513;
+  box-shadow: 0 20px 90px rgba(13, 16, 37, 0.144);
   padding-right: 100px;
   padding-left: 50px;
+  padding-bottom: 42px;
+  padding-top: 30px;
 }
 .end-title {
   font-weight: 500;
@@ -467,7 +530,7 @@ a {
   line-height: 45px;
   display: flex;
   align-items: center;
-  color: #0B132A;
+  color: #0b132a;
   width: 370px;
 }
 .end-text {
@@ -475,7 +538,7 @@ a {
   line-height: 30px;
   display: flex;
   align-items: center;
-  color: #4F5665;
+  color: #4f5665;
 }
 .footer-flex {
   display: flex;
@@ -484,13 +547,13 @@ a {
 .footer-text {
   font-size: 16px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
   width: 340px;
 }
 .icon-group {
   font-size: 34px;
-  color: #F53838;
-  text-shadow: 1px 10px 2px #0d102513;
+  color: #f53838;
+  text-shadow: 1px 10px 2px rgba(13, 16, 37, 0.075);
   margin-right: 22px;
 }
 .link-social {
@@ -500,16 +563,16 @@ a {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  color: #AFB5C0;
+  color: #afb5c0;
 }
 .footer-list-link {
   font-size: 16px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
 }
 .small-title {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  color: #0B132A;
+  color: #0b132a;
 }
