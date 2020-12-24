@@ -161,7 +161,7 @@ a {
 }
 .achievments {
   margin-top: 100px;
-  padding-top: 70px;
+  padding-top: 40px;
   padding-bottom: 70px;
   display: flex;
   align-items: center;
@@ -337,10 +337,7 @@ a {
   bottom: 45%;
   display: none;
   align-items: center;
-  padding-bottom: 23px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
+  padding: 20px;
   text-align: center;
   background: transparent;
   color: #f53838;
@@ -368,8 +365,6 @@ a {
 .slider__control::before {
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 20px;
   background: transparent no-repeat center;
   background-size: 100% 100%;
 }
@@ -542,7 +537,7 @@ a {
 }
 .footer-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .footer-text {
   font-size: 16px;
